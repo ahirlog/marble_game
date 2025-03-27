@@ -118,8 +118,4 @@ class GameProvider with ChangeNotifier {
     }
     return true;
   }
-
-// void _recordHistory() {
-//   gameHistory.add(board.map((row) => row.toList()).toList());
-// }
 }
